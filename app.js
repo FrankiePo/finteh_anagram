@@ -5,4 +5,4 @@
 const s1 = prompt("Enter first string");
 const s2 = prompt("Enter second string");
 
-if (s1.length != s2.length) alert(false);
+alert(s1.split("").sort().join() === s2.split("").sort().join());
